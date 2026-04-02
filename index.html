@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>和平 | Peace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航 -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 4C12.954 4 4 12.954 4 24s8.954 20 20 20 20-8.954 20-20S35.046 4 24 4zm0 36c-8.822 0-16-7.178-16-16S15.178 8 24 8s16 7.178 16 16-7.178 16-16 16z"/>
+                    <path d="M24 12v24M12 24h24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M16 16l16 16M32 16L16 32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+                </svg>
+                <span>PEACE</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">首页</a></li>
+                <li><a href="#about">关于和平</a></li>
+                <li><a href="#gallery">影像</a></li>
+                <li><a href="#message">寄语</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 主视觉区 -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-overlay"></div>
+            <div class="floating-doves">
+                <div class="dove dove-1"></div>
+                <div class="dove dove-2"></div>
+                <div class="dove dove-3"></div>
+                <div class="dove dove-4"></div>
+                <div class="dove dove-5"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="peace-symbol">
+                <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="100" cy="100" r="95" stroke="currentColor" stroke-width="2" fill="none"/>
+                    <line x1="100" y1="5" x2="100" y2="195" stroke="currentColor" stroke-width="2"/>
+                    <line x1="100" y1="100" x2="35" y2="165" stroke="currentColor" stroke-width="2"/>
+                    <line x1="100" y1="100" x2="165" y2="165" stroke="currentColor" stroke-width="2"/>
+                </svg>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">和</span>
+                <span class="title-line">平</span>
+            </h1>
+            <p class="hero-subtitle">Peace · 平和 · Paix · Frieden · Paz · Мир</p>
+            <p class="hero-desc">愿世界和平，人类共生</p>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>向下滚动</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于和平 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Peace</span>
+                <h2 class="section-title">和平的意义</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M24 4c-8 8-12 16-12 24 0 8 4 12 12 16 8-4 12-8 12-16 0-8-4-16-12-24z"/>
+                            <path d="M24 12v24M18 18l6-6 6 6"/>
+                        </svg>
+                    </div>
+                    <h3>内在平和</h3>
+                    <p>真正的和平始于内心。当心灵宁静，世界便不再有战争的土壤。</p>
+                </div>
+                <div class="about-card featured">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="24" cy="24" r="18"/>
+                            <path d="M24 6v36M6 24h36"/>
+                            <path d="M12 12l24 24M36 12L12 36" opacity="0.4"/>
+                        </svg>
+                    </div>
+                    <h3>世界和平</h3>
+                    <p>超越国界、种族与信仰，人类共享同一片蓝天，同住一个地球村。</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M24 4l6 12h12l-10 8 4 12-12-8-12 8 4-12L6 16h12l6-12z"/>
+                        </svg>
+                    </div>
+                    <h3>和谐共生</h3>
+                    <p>人与自然、科技与文明、传统与现代，在平衡中寻找共存之道。</p>
+                </div>
+            </div>
+            <div class="quote-block">
+                <blockquote>
+                    "和平不仅仅是没有战争，而是正义的实践、自由的表达、以及人类尊严的彰显。"
+                </blockquote>
+                <cite>— 联合国教科文组织</cite>
+            </div>
+        </div>
+    </section>
+
+    <!-- 影像画廊 -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">Gallery</span>
+                <h2 class="section-title">和平的影像</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <div class="gallery-image" style="--bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div class="image-placeholder">
+                            <svg viewBox="0 0 48 48" fill="currentColor">
+                                <path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-2 35.86C14.48 38.1 9.9 31.58 9.9 24c0-1.75.3-3.43.84-5h12.26v20.86zM24 38.1c-1.14 0-2.25-.12-3.32-.34V17.9h14.42c.54 1.57.84 3.25.84 5 0 7.78-4.8 14.45-11.58 17.12L24 38.1zm8.1-22.2H17.9v-4h16.26c-1.67-4.22-5.18-7.5-9.5-8.68 4.03 1.2 7.42 4.07 9.26 7.9.18.38.34.78.48 1.18.34.9.58 1.86.7 2.86v.74z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>橄榄枝</h4>
+                        <p>古希腊象征和平的圣物</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="--bg-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="image-placeholder">
+                            <svg viewBox="0 0 48 48" fill="currentColor">
+                                <path d="M24 4c-2.5 0-4.84.65-6.88 1.78C17.1 4.66 15.12 4 13 4 7.48 4 3 8.48 3 14c0 2.76 1.12 5.26 2.93 7.07L24 40l18.07-18.93C43.88 19.26 45 16.76 45 14c0-5.52-4.48-10-10-10-2.12 0-4.1.66-5.82 1.78C27.84 4.65 25.5 4 24 4z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>白鸽</h4>
+                        <p>传递和平的使者</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="--bg-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div class="image-placeholder">
+                            <svg viewBox="0 0 48 48" fill="currentColor">
+                                <path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm0 36c-8.82 0-16-7.18-16-16S15.18 8 24 8s16 7.18 16 16-7.18 16-16 16zm-1-26h2v10h10v2H25v10h-2V26H13v-2h10V14z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>和平符号</h4>
+                        <p>反战运动的标志</p>
+                    </div>
+                </div>
+                <div class="gallery-item wide">
+                    <div class="gallery-image" style="--bg-gradient: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div class="image-placeholder">
+                            <svg viewBox="0 0 48 48" fill="currentColor">
+                                <path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm0 36c-8.82 0-16-7.18-16-16S15.18 8 24 8s16 7.18 16 16-7.18 16-16 16zm-6-14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm6 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm6 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm-9 8c2.76 0 5-2.24 5-5h-10c0 2.76 2.24 5 5 5z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>世界微笑</h4>
+                        <p>用微笑连接世界</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 数据展示 -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="195">0</div>
+                    <div class="stat-label">联合国成员国</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-label">国际和平日</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="1945">0</div>
+                    <div class="stat-label">联合国成立</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="8">0</div>
+                    <div class="stat-label">十亿分之一</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 寄语 -->
+    <section id="message" class="message">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Message</span>
+                <h2 class="section-title">和平寄语</h2>
+            </div>
+            <div class="message-content">
+                <div class="message-cards">
+                    <div class="msg-card">
+                        <div class="msg-text">"和平不是没有冲突，而是以和平方式解决冲突的能力。"</div>
+                        <div class="msg-author">— 纳尔逊·曼德拉</div>
+                    </div>
+                    <div class="msg-card">
+                        <div class="msg-text">"战争教会我们和平的价值，和平则教会我们生命的可贵。"</div>
+                        <div class="msg-author">— 佚名</div>
+                    </div>
+                    <div class="msg-card">
+                        <div class="msg-text">"世界和平始于每个人的内心。"</div>
+                        <div class="msg-author">— 一行禅师</div>
+                    </div>
+                </div>
+                <div class="interactive-area">
+                    <div class="candle">
+                        <div class="flame"></div>
+                        <div class="wick"></div>
+                        <div class="candle-body"></div>
+                        <p class="candle-text">为和平点亮蜡烛</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
+                        <line x1="24" y1="4" x2="24" y2="44" stroke="currentColor" stroke-width="2"/>
+                        <line x1="24" y1="24" x2="10" y2="38" stroke="currentColor" stroke-width="2"/>
+                        <line x1="24" y1="24" x2="38" y2="38" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    <span>愿世界和平</span>
+                </div>
+                <p class="footer-text">Peace for all humanity</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">关于</a>
+                    <a href="#" class="footer-link">联系</a>
+                    <a href="#" class="footer-link">分享</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Peace Project. 用爱创造和平。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
